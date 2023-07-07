@@ -13,8 +13,8 @@ def is_enabled(value, default):
 # Bot information
 PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '20077906'))
+API_HASH = environ.get('API_HASH', 'da36369fbe92c05fd924331af2615e73')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
@@ -27,9 +27,9 @@ SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1883570185').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001810806290').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5403432874').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001814749004').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '5403432874').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
@@ -42,9 +42,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Developerr")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/developerr_Bots_support')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Developere_Bots')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/developerr_Bots_Support')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/iPapkorn_group')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/iPapkorn_group')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
@@ -54,7 +54,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Purohit_Movies_backup
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/sJ4fs5X60PI')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001950272645'))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', ''))
 
 # Bot Options
