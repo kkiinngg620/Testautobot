@@ -38,20 +38,20 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Developerr")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Prince0_66")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/iPapkorn_group')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/allmovises0')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Moviesbank_Corporation')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/iPapkorn_group')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/allmovises0')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', ''))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
-FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/Purohit_Movies_backup')
-HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://youtu.be/sJ4fs5X60PI')
+FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+GDbbZq8dM200Mjdl')
+HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/Moviesbank_Corporation/101')
 
 # Log Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001950272645'))
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'mplaylink.com')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c56c3b4ed8517d827f05df4dd13c0156cb3a3b96')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'OnePageLink.in')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '807085265f74bb78d42c3c5994d9429c1edd5ac8')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
