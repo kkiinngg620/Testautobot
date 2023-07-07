@@ -11,7 +11,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 
-<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Moviesbank_Corporation1>☢ Moviesbank_Corporation ☢</a></b>
+<b>✯ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Prince0_66>☢ Prince0_66 ☢</a></b>
 
 <b>✯ Uᴘᴅᴀᴛᴇs : <a https://t.me/Moviesbank_Corporation 👾</a></b>
 
