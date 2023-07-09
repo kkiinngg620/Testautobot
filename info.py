@@ -49,7 +49,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
 SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'https://t.me/allmovises0')
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', ''))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001912073683'))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 'https://t.me/+GDbbZq8dM200Mjdl')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', '🍿https://t.me/Moviesbank_Corporation/101🍿')
 
